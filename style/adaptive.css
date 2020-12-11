@@ -1,0 +1,118 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1024px;
+    }
+
+    .weather-card {
+        flex: 0 0 160px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .to-input-city {
+        margin-top: 85px;
+    }
+
+    .to-input-city__input {
+        width: 495px;
+    }
+
+    .weather-card-list {
+        margin-top: 65px;
+        margin-bottom: 85px;
+    }
+
+    .weather-card {
+        flex: 0 0 160px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        position: relative;
+        max-width: 425px;
+        padding: 0 25px;
+    }
+
+    #root {
+        overflow: hidden;
+    }
+
+    .to-input-city {
+        margin-top: 85px;
+    }
+
+    .to-input-city__input {
+        width: 250px;
+    }
+
+    .weather-card {
+        box-sizing: border-box;
+        max-width: 425px;
+        flex: 0 0 80vw;
+    }
+
+    .weather-card-list {
+        margin-top: 45px;
+        margin-bottom: 65px;
+        flex-wrap: nowrap;
+    }
+
+    .slider-left-btn,
+    .slider-right-btn {
+        display: block;
+    }
+}
+
+@media (max-width: 550px) {
+    .container {
+        max-width: 300px;
+        padding: 0px 10px;
+    }
+
+    .to-input-city {
+        flex-direction: column-reverse;
+        margin-top: 35px;
+    }
+
+    .to-input-city__form {
+        margin-top: 20px;
+    }
+
+    .to-input-city__input {
+        flex-grow: 1;
+    }
+
+    .to-input-city__title {
+        transform: none;
+    }
+
+    .weather-card {
+        margin-top: 0;
+        max-width: 300px;
+        flex: 0 0 93.6vw;
+    }
+
+    .weather-card-list {
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+
+    .slider-left-btn,
+    .slider-right-btn {
+        height: 36px;
+        width: 36px;
+    }
+
+    .slider-left-btn {
+        left: 50px;
+    }
+
+    .slider-right-btn {
+        right: 50px;
+    }
+}
